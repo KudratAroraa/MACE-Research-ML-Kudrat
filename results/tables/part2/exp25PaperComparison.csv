@@ -1,0 +1,4 @@
+Method,Accuracy,F1,DifferenceFromPaperAccuracy,DifferenceFromPaperF1
+Paper MACE SoF,88.2,79.4,0.0,0.0
+Reproduced MACE SoF,88.5,79.4,0.29999999999999716,0.0
+RG-MACE,89.2,78.8,1.0,-0.6000000000000085

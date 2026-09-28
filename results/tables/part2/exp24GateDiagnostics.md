@@ -1,0 +1,3 @@
+|   ChosenC | ConstraintMet   |   GateROCAUC |   GateBalancedAccuracy |   GatePrecision |   GateRecall |   GateF1 | Interpretation                                             |
+|----------:|:----------------|-------------:|-----------------------:|----------------:|-------------:|---------:|:-----------------------------------------------------------|
+|     0.010 | False           |        0.830 |                  0.673 |           0.934 |        0.941 |    0.937 | Routing quality only, not final classification performance |

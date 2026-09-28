@@ -1,0 +1,4 @@
+Dataset,ShortName,PaperOrder,ReproducedOrder,SameOrder,PaperTopK,ReproducedTopK,BestSigma,BestPercentage,BruteForceOrder,BruteForceSigma,BruteForceConfigurations,BruteForceSelectionProtocol,BruteForceValidForRecommendation
+UrbanObservatory,UrbObs,1NN-ED > RF,1NN-ED > RF,True,7,"[8, 1]",-0.6,0.5,RF > 1NN-ED,1.0,2925,PaperOracle_TestOptimised,False
+Swissex,Swissex,1NN-ED > RF,1NN-ED > RF,True,change points at k=10 and k=7,"[8, 1]",0.4,0.8,1NN-ED > RF > SVM > kNN,0.0,2925,PaperOracle_TestOptimised,False
+ThingSpeakEU,TS,DDL-NLP > RF,DDL-NLP > RF,True,not stated,"[3, 1]",0.2,0.2,DDL-NLP > RF,-0.2,2925,PaperOracle_TestOptimised,False

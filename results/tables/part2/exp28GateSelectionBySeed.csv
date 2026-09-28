@@ -1,0 +1,8 @@
+Seed,ChosenC,ConstraintMet,CleanF1,MinimumAllowedCleanF1,ShortfallFromConstraint,SelectionRule
+7,0.01,False,79.8422623375959,80.05458845345275,0.2123261158568539,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+21,0.01,False,79.4471978770817,79.66820503096572,0.22100715388401682,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+42,0.01,False,75.40769116017071,76.86552883499806,1.4578376748273456,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+77,10.0,False,74.57744772840792,75.36761934031584,0.7901716119079225,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+100,0.01,False,74.36286764818027,74.49999849711958,0.13713084893930727,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+123,0.01,False,81.01018736615154,81.03222478124582,0.022037415094274593,Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen
+202,0.01,True,60.69721684391561,60.33313637196365,-0.364080471951965,Constrained

@@ -1,0 +1,19 @@
+Dataset,Method,Accuracy,Precision,Recall,F1,AUC,BalancedAccuracy,WeightedF1,LogLoss
+UrbanObservatory,Best standalone,91.2,89.3,88.3,88.2,98.9,88.3,91.3,0.427
+UrbanObservatory,Soft voting,90.6,89.4,89.1,88.5,99.3,89.1,90.8,0.485
+UrbanObservatory,MACE Top-k,91.2,89.3,88.3,88.2,98.9,88.3,91.3,0.373
+UrbanObservatory,MACE PF,91.2,89.3,88.3,88.2,98.9,88.3,91.3,0.373
+UrbanObservatory,MACE SoF,91.2,89.3,88.3,88.2,98.7,88.3,91.3,0.3775
+UrbanObservatory,MACE brute-force (SoF),92.5,91.0,89.5,89.8,97.3,89.5,92.4,1.4532
+Swissex,Best standalone,84.6,83.0,84.0,83.2,97.2,84.0,84.4,0.6294
+Swissex,Soft voting,81.7,81.0,77.3,77.8,97.1,77.3,80.9,0.7325
+Swissex,MACE Top-k,84.6,83.0,84.0,83.2,97.2,84.0,84.4,0.6284
+Swissex,MACE PF,84.6,83.0,84.0,83.2,97.2,84.0,84.4,0.6284
+Swissex,MACE SoF,82.7,79.8,81.5,80.0,92.0,81.5,81.9,3.4301
+Swissex,MACE brute-force (SoF),86.5,90.0,82.3,83.9,90.4,82.3,85.7,4.8542
+ThingSpeakEU,Best standalone,76.0,75.1,70.9,71.9,95.7,70.9,74.0,1.1813
+ThingSpeakEU,Soft voting,80.1,59.9,59.7,58.8,97.1,59.7,78.1,0.7486
+ThingSpeakEU,MACE Top-k,84.3,70.7,67.2,67.6,92.9,67.2,83.7,1.8769
+ThingSpeakEU,MACE PF,83.5,71.8,63.3,64.8,92.4,63.3,82.8,1.622
+ThingSpeakEU,MACE SoF,88.5,84.5,77.4,79.4,94.2,77.4,88.2,2.0252
+ThingSpeakEU,MACE brute-force (SoF),89.0,84.5,76.8,79.0,95.5,76.8,88.4,1.0264

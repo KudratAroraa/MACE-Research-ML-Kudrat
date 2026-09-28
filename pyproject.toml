@@ -1,0 +1,33 @@
+# defines the installable project package and test configuration
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mace-research-kudrat"
+version = "0.2.0"
+description = "Independent reproduction and critical analysis of the MACE framework"
+authors = [{name = "Kudrat Arora"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4,<2.5",
+    "pandas>=3.0,<3.1",
+    "scipy>=1.17,<1.18",
+    "pyxDamerauLevenshtein>=1.10,<2.0",
+    "scikit-learn>=1.8,<1.9",
+    "matplotlib>=3.8,<4.0",
+    "seaborn>=0.13,<1.0",
+    "numba>=0.67,<0.68",
+    "joblib>=1.6,<1.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "slow: executes the full dataset reproduction and regression targets",
+]

@@ -1,0 +1,7 @@
+Component,Seconds,MillisecondsPerStream,ModelBytes
+Part 1 preparation and OOF pool scores,101.87361404113472,,
+MACE expert fitting and reselection,21.083821709267795,,
+OOF gate dataset construction,4.7211062498390675,,
+Gate selection and final fitting,0.34194591687992215,,2062.0
+MACE SoF prediction,7.475813124794513,11.735970368594211,
+RG-MACE prediction,6.981516791973263,10.959994963851276,

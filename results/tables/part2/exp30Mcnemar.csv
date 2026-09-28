@@ -1,0 +1,5 @@
+Condition,Comparison,AOnlyCorrect,BOnlyCorrect,Discordant,PValue
+Clean,RG-MACE vs MACE SoF,16,20,36,0.617719317029696
+Clean,RG-MACE vs MACE SoF + missing-name rule,16,20,36,0.617719317029696
+Missing25,RG-MACE vs MACE SoF,20,134,154,6.540692496507491e-22
+Missing25,RG-MACE vs MACE SoF + missing-name rule,12,13,25,1.0

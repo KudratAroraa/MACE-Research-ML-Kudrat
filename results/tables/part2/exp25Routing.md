@@ -1,0 +1,3 @@
+|   MeanGate |   RfRoutingShare |   PredictionsDifferentFromMace |   MaceErrorsCorrected |   MaceCorrectPredictionsBroken |   ChosenC | SelectedOrder                   |   SelectedSigma |
+|-----------:|-----------------:|-------------------------------:|----------------------:|-------------------------------:|----------:|:--------------------------------|----------------:|
+|      0.738 |            5.024 |                             45 |                    20 |                             16 |     0.010 | 1NN-ED > DDL-NLP > RandomForest |          -0.200 |

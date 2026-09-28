@@ -1,0 +1,13 @@
+Dataset,NoiseRate,Order,Sigma,Accuracy,Precision,Recall,F1,AUC,BalancedAccuracy,WeightedF1,LogLoss
+UrbanObservatory,0.0,1NN-ED > RF,-0.6,91.2,89.3,88.3,88.2,98.7,88.3,91.3,0.3775
+UrbanObservatory,0.05,1NN-ED > RF,0.0,91.2,89.9,87.4,87.8,98.9,87.4,91.2,0.6143
+UrbanObservatory,0.1,SVM > GBoost > RF,-0.4,86.2,84.4,77.6,79.4,90.2,77.6,86.1,2.0313
+UrbanObservatory,0.2,1NN-ED > SVM > GBoost > RF,-0.6,86.2,79.0,78.6,78.5,93.9,78.6,85.8,1.1826
+Swissex,0.0,1NN-ED > RF,0.4,82.7,79.8,81.5,80.0,92.0,81.5,81.9,3.4301
+Swissex,0.05,1NN-ED > GBoost > RF,-0.6,80.8,78.9,80.8,78.9,95.5,80.8,79.9,1.0345
+Swissex,0.1,SVM > RF,-0.6,77.9,76.4,73.7,72.5,93.4,73.7,77.2,1.4305
+Swissex,0.2,1NN-ED > SVM > GBoost > RF,-0.6,70.2,69.9,68.6,67.9,91.7,68.6,70.4,2.741
+ThingSpeakEU,0.0,DDL-NLP > RF,0.2,88.5,84.5,77.4,79.4,94.2,77.4,88.2,2.0252
+ThingSpeakEU,0.05,GBoost > DDL-NLP > RF,-0.2,79.9,56.7,62.2,58.0,80.9,62.2,79.2,6.3767
+ThingSpeakEU,0.1,DDL-NLP > RF,0.2,84.9,70.3,72.9,70.7,92.3,72.9,84.9,3.316
+ThingSpeakEU,0.2,1NN-ED > DDL-NLP > GBoost > RF,-0.2,78.5,56.1,58.5,55.6,80.5,58.5,78.3,6.4163

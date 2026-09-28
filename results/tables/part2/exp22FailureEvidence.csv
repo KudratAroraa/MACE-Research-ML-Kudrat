@@ -1,0 +1,12 @@
+Evidence,Value,Unit
+Clean MACE SoF accuracy,88.5,%
+Random Forest accuracy,76.0,%
+MACE accuracy with 25% names missing,68.8,%
+MACE accuracy with 50% names missing,52.7,%
+MACE accuracy with all names missing,12.6,%
+MACE accuracy after complete case swap,73.5,%
+DDL-NLP accuracy on seen names,79.8,%
+DDL-NLP accuracy on unseen names,64.9,%
+MACE SoF log loss,2.0252,loss
+Soft voting log loss,0.7486,loss
+MACE accuracy on channel-grouped split,86.7,%

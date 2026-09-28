@@ -1,0 +1,19 @@
+| Feature                 |   Coefficient |   AbsoluteCoefficient |
+|:------------------------|--------------:|----------------------:|
+| rfSupportForMaceChoice  |         0.292 |                 0.292 |
+| maceSupportForRfChoice  |         0.236 |                 0.236 |
+| expertsAgree            |         0.236 |                 0.236 |
+| rfEntropy               |         0.229 |                 0.229 |
+| nameDistanceGap         |         0.212 |                 0.212 |
+| rfMaxProbability        |        -0.195 |                 0.195 |
+| nearestNameDistance     |        -0.167 |                 0.167 |
+| rfMargin                |        -0.156 |                 0.156 |
+| exactNameSeen           |         0.122 |                 0.122 |
+| nameMissing             |        -0.113 |                 0.113 |
+| nameLengthLogRatio      |        -0.096 |                 0.096 |
+| ddlEntropy              |        -0.088 |                 0.088 |
+| maceSurvivingClassShare |         0.045 |                 0.045 |
+| ddlMaxProbability       |         0.040 |                 0.040 |
+| maceMaxProbability      |        -0.014 |                 0.014 |
+| maceMargin              |        -0.011 |                 0.011 |
+| ddlMargin               |         0.007 |                 0.007 |

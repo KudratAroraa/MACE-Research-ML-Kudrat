@@ -1,0 +1,4 @@
+Dataset,TrainingRows,TestingRows,TestShare,Seed,Strategy
+UrbanObservatory,745,320,30.0,100,stratified
+Swissex,242,104,30.1,100,stratified
+ThingSpeakEU,1484,637,30.0,100,stratified

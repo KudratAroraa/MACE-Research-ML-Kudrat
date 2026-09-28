@@ -1,0 +1,4 @@
+dataset,observations,seriesLength,classes,exactConstantSeries,zeroStdSeries,undefinedMomentRows,duplicateGroups,conflictingDuplicateGroups,largestClassShare,crossPartitionDuplicateGroups
+UrbanObservatory,1065,864,16,37,37,37,5,1,0.19906103286384977,3
+Swissex,346,445,11,1,1,1,13,0,0.2254335260115607,4
+ThingSpeakEU,2121,96,21,49,27,44,24,1,0.20414898632720416,12

@@ -1,0 +1,8 @@
+FeatureA,FeatureB,Correlation
+ddlMaxProbability,ddlMargin,0.9713138845614606
+ddlMaxProbability,ddlEntropy,-0.9456865142592209
+rfMaxProbability,rfMargin,0.9795779946833449
+rfMaxProbability,rfEntropy,-0.9643410428623492
+rfMargin,rfEntropy,-0.9129800527882402
+maceMaxProbability,maceMargin,0.9892311225212068
+expertsAgree,maceSupportForRfChoice,0.9190024523347312

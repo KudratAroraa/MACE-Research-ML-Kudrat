@@ -1,0 +1,3 @@
+| Classifier   |   PaperAccuracy |   Accuracy |   Precision |   Recall |    F1 |   AUC |   BalancedAccuracy |   WeightedF1 |   LogLoss |   TestNamesSeenInTrain |   AccuracyOnSeenNames |   AccuracyOnUnseenNames |
+|:-------------|----------------:|-----------:|------------:|---------:|------:|------:|-------------------:|-------------:|----------:|-----------------------:|----------------------:|------------------------:|
+| DDL-NLP      |           73.20 |      73.20 |       75.10 |    70.90 | 71.90 | 95.70 |              70.90 |        72.90 |      1.18 |                  55.30 |                 79.80 |                   64.90 |

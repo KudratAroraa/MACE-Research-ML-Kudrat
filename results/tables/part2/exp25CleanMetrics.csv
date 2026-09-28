@@ -1,0 +1,25 @@
+Dataset,Method,Accuracy,Precision,Recall,F1,AUC,BalancedAccuracy,WeightedF1,LogLoss,Status,BrierScore
+UrbanObservatory,RF,91.2,89.3,88.3,88.2,98.9,88.3,91.3,0.427,Evaluated,
+UrbanObservatory,Soft voting,90.6,89.4,89.1,88.5,99.3,89.1,90.8,0.485,Evaluated,
+UrbanObservatory,MACE SoF,91.2,89.3,88.3,88.2,98.7,88.3,91.3,0.3775,Evaluated,
+UrbanObservatory,MACE SoF + missing-name rule,,,,,,,,,Not applicable (single information domain),
+UrbanObservatory,Case-folded MACE + missing-name rule,,,,,,,,,Not applicable (single information domain),
+UrbanObservatory,Soft stacking,,,,,,,,,Not applicable (single information domain),
+UrbanObservatory,RG-MACE (hard gate),,,,,,,,,Not applicable (single information domain),
+UrbanObservatory,RG-MACE,,,,,,,,,Not applicable (single information domain),
+Swissex,RF,84.6,83.0,84.0,83.2,97.2,84.0,84.4,0.6294,Evaluated,
+Swissex,Soft voting,81.7,81.0,77.3,77.8,97.1,77.3,80.9,0.7325,Evaluated,
+Swissex,MACE SoF,82.7,79.8,81.5,80.0,92.0,81.5,81.9,3.4301,Evaluated,
+Swissex,MACE SoF + missing-name rule,,,,,,,,,Not applicable (single information domain),
+Swissex,Case-folded MACE + missing-name rule,,,,,,,,,Not applicable (single information domain),
+Swissex,Soft stacking,,,,,,,,,Not applicable (single information domain),
+Swissex,RG-MACE (hard gate),,,,,,,,,Not applicable (single information domain),
+Swissex,RG-MACE,,,,,,,,,Not applicable (single information domain),
+ThingSpeakEU,RF,76.0,51.3,54.5,51.9,90.2,54.5,74.0,1.3377,Evaluated,0.3442194222919937
+ThingSpeakEU,Soft voting,80.1,59.9,59.7,58.8,97.1,59.7,78.1,0.7486,Evaluated,0.3221978303345987
+ThingSpeakEU,MACE SoF,88.5,84.5,77.4,79.4,94.2,77.4,88.2,2.0252,Evaluated,0.19976310552731152
+ThingSpeakEU,MACE SoF + missing-name rule,88.5,84.5,77.4,79.4,94.2,77.4,88.2,2.0252,Evaluated,0.19976310552731152
+ThingSpeakEU,Case-folded MACE + missing-name rule,89.2,86.7,76.6,79.0,92.3,76.6,88.7,1.9162,Evaluated,0.1893377461964444
+ThingSpeakEU,Soft stacking,87.8,75.7,74.0,74.4,97.9,74.0,87.3,0.4694,Evaluated,0.19236313216689638
+ThingSpeakEU,RG-MACE (hard gate),88.4,84.7,75.8,77.8,91.7,75.8,87.5,1.4207,Evaluated,0.18951134730637784
+ThingSpeakEU,RG-MACE,89.2,87.2,76.1,78.8,94.8,76.1,88.4,0.8236,Evaluated,0.1801853341474894

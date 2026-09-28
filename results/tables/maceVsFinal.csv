@@ -1,0 +1,10 @@
+Dataset,Method,FinalClassifier,IdenticalPredictions,SamplesChanged
+UrbanObservatory,MACE Top-k,RF,100.0,0
+UrbanObservatory,MACE PF,RF,100.0,0
+UrbanObservatory,MACE SoF,RF,100.0,0
+Swissex,MACE Top-k,RF,100.0,0
+Swissex,MACE PF,RF,100.0,0
+Swissex,MACE SoF,RF,94.2,6
+ThingSpeakEU,MACE Top-k,RF,84.3,100
+ThingSpeakEU,MACE PF,RF,85.9,90
+ThingSpeakEU,MACE SoF,RF,80.7,123

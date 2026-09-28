@@ -1,0 +1,37 @@
+| Dataset          | Experiment         |   Seed | Method          |   Accuracy |   Precision |   Recall |    F1 |   AUC |   BalancedAccuracy |   WeightedF1 |   LogLoss |
+|:-----------------|:-------------------|-------:|:----------------|-----------:|------------:|---------:|------:|------:|-------------------:|-------------:|----------:|
+| UrbanObservatory | Split_stratified   |    100 | Best standalone |      91.20 |       89.30 |    88.30 | 88.20 | 98.90 |              88.30 |        91.30 |      0.43 |
+| UrbanObservatory | Split_stratified   |    100 | Soft voting     |      90.60 |       89.40 |    89.10 | 88.50 | 99.30 |              89.10 |        90.80 |      0.48 |
+| UrbanObservatory | Split_stratified   |    100 | MACE Top-k      |      91.20 |       89.30 |    88.30 | 88.20 | 98.90 |              88.30 |        91.30 |      0.37 |
+| UrbanObservatory | Split_stratified   |    100 | MACE PF         |      91.20 |       89.30 |    88.30 | 88.20 | 98.90 |              88.30 |        91.30 |      0.37 |
+| UrbanObservatory | Split_stratified   |    100 | MACE SoF        |      91.20 |       89.30 |    88.30 | 88.20 | 98.70 |              88.30 |        91.30 |      0.38 |
+| UrbanObservatory | Split_groupAware   |    100 | Best standalone |      91.20 |       88.70 |    86.30 | 87.00 | 99.10 |              86.30 |        91.10 |      0.38 |
+| UrbanObservatory | Split_groupAware   |    100 | Soft voting     |      90.70 |       88.90 |    85.60 | 86.80 | 99.30 |              85.60 |        90.60 |      0.48 |
+| UrbanObservatory | Split_groupAware   |    100 | MACE Top-k      |      91.00 |       88.80 |    86.80 | 87.40 | 97.00 |              86.80 |        90.90 |      1.07 |
+| UrbanObservatory | Split_groupAware   |    100 | MACE PF         |      90.70 |       88.70 |    86.30 | 87.00 | 99.40 |              86.30 |        90.60 |      0.38 |
+| UrbanObservatory | Split_groupAware   |    100 | MACE SoF        |      92.40 |       89.90 |    87.40 | 88.30 | 96.00 |              87.40 |        92.40 |      1.29 |
+| Swissex          | Split_stratified   |    100 | Best standalone |      84.60 |       83.00 |    84.00 | 83.20 | 97.20 |              84.00 |        84.40 |      0.63 |
+| Swissex          | Split_stratified   |    100 | Soft voting     |      81.70 |       81.00 |    77.30 | 77.80 | 97.10 |              77.30 |        80.90 |      0.73 |
+| Swissex          | Split_stratified   |    100 | MACE Top-k      |      84.60 |       83.00 |    84.00 | 83.20 | 97.20 |              84.00 |        84.40 |      0.63 |
+| Swissex          | Split_stratified   |    100 | MACE PF         |      84.60 |       83.00 |    84.00 | 83.20 | 97.20 |              84.00 |        84.40 |      0.63 |
+| Swissex          | Split_stratified   |    100 | MACE SoF        |      82.70 |       79.80 |    81.50 | 80.00 | 92.00 |              81.50 |        81.90 |      3.43 |
+| Swissex          | Split_groupAware   |    100 | Best standalone |      68.70 |       68.20 |    67.70 | 66.30 | 94.70 |              67.70 |        69.90 |      1.30 |
+| Swissex          | Split_groupAware   |    100 | Soft voting     |      71.30 |       70.00 |    67.20 | 67.20 | 94.50 |              67.20 |        71.50 |      0.94 |
+| Swissex          | Split_groupAware   |    100 | MACE Top-k      |      68.70 |       68.20 |    67.70 | 66.30 | 94.70 |              67.70 |        69.90 |      1.11 |
+| Swissex          | Split_groupAware   |    100 | MACE PF         |      68.70 |       68.20 |    67.70 | 66.30 | 94.70 |              67.70 |        69.90 |      1.11 |
+| Swissex          | Split_groupAware   |    100 | MACE SoF        |      68.70 |       68.20 |    67.70 | 66.30 | 94.70 |              67.70 |        69.90 |      1.11 |
+| ThingSpeakEU     | Split_stratified   |    100 | Best standalone |      76.00 |       75.10 |    70.90 | 71.90 | 95.70 |              70.90 |        74.00 |      1.18 |
+| ThingSpeakEU     | Split_stratified   |    100 | Soft voting     |      80.10 |       59.90 |    59.70 | 58.80 | 97.10 |              59.70 |        78.10 |      0.75 |
+| ThingSpeakEU     | Split_stratified   |    100 | MACE Top-k      |      84.30 |       70.70 |    67.20 | 67.60 | 92.90 |              67.20 |        83.70 |      1.88 |
+| ThingSpeakEU     | Split_stratified   |    100 | MACE PF         |      83.50 |       71.80 |    63.30 | 64.80 | 92.40 |              63.30 |        82.80 |      1.62 |
+| ThingSpeakEU     | Split_stratified   |    100 | MACE SoF        |      88.50 |       84.50 |    77.40 | 79.40 | 94.20 |              77.40 |        88.20 |      2.03 |
+| ThingSpeakEU     | Split_groupAware   |    100 | Best standalone |      73.70 |       79.90 |    75.80 | 76.60 | 96.40 |              75.80 |        72.30 |      1.17 |
+| ThingSpeakEU     | Split_groupAware   |    100 | Soft voting     |      77.50 |       56.40 |    52.90 | 53.50 | 96.80 |              52.90 |        75.70 |      0.77 |
+| ThingSpeakEU     | Split_groupAware   |    100 | MACE Top-k      |      83.00 |       82.20 |    70.30 | 74.00 | 93.10 |              70.30 |        83.00 |      1.66 |
+| ThingSpeakEU     | Split_groupAware   |    100 | MACE PF         |      81.60 |       74.20 |    58.50 | 62.40 | 92.50 |              58.50 |        81.10 |      1.42 |
+| ThingSpeakEU     | Split_groupAware   |    100 | MACE SoF        |      90.40 |       87.00 |    82.70 | 84.20 | 93.50 |              82.70 |        90.20 |      1.74 |
+| ThingSpeakEU     | Split_channelAware |    100 | Best standalone |      72.50 |       72.70 |    72.30 | 70.80 | 95.30 |              72.30 |        71.50 |      1.19 |
+| ThingSpeakEU     | Split_channelAware |    100 | Soft voting     |      77.30 |       63.50 |    60.20 | 59.50 | 96.90 |              60.20 |        76.30 |      0.80 |
+| ThingSpeakEU     | Split_channelAware |    100 | MACE Top-k      |      81.20 |       69.00 |    63.20 | 63.70 | 90.40 |              63.20 |        80.70 |      2.22 |
+| ThingSpeakEU     | Split_channelAware |    100 | MACE PF         |      80.30 |       71.40 |    61.30 | 62.70 | 90.30 |              61.30 |        79.80 |      1.86 |
+| ThingSpeakEU     | Split_channelAware |    100 | MACE SoF        |      86.70 |       85.10 |    78.70 | 80.60 | 92.60 |              78.70 |        86.40 |      2.20 |

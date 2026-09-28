@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Testing and tooling caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Numba and joblib caches
+*.nbi
+*.nbc
+joblib_cache/
+.joblib/
+
+# OS files
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local run copies and backups
+results_notebook_run_*/
+results_backup*/
+results_old*/
+*.bak
+*.tmp

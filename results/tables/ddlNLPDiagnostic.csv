@@ -1,0 +1,2 @@
+Classifier,PaperAccuracy,Accuracy,Precision,Recall,F1,AUC,BalancedAccuracy,WeightedF1,LogLoss,TestNamesSeenInTrain,AccuracyOnSeenNames,AccuracyOnUnseenNames
+DDL-NLP,73.2,73.2,75.1,70.9,71.9,95.7,70.9,72.9,1.1813,55.3,79.8,64.9

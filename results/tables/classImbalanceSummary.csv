@@ -1,0 +1,4 @@
+Dataset,LargestClassShare,LargestClassCount,SmallestClassCount,ImbalanceRatio,ClassesBelow20Streams
+UrbanObservatory,19.9,212,13,16.3,1
+Swissex,22.5,78,14,5.6,3
+ThingSpeakEU,20.4,433,4,108.2,8

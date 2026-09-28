@@ -1,0 +1,9 @@
+|   Seed |   ChosenC | ConstraintMet   |   CleanF1 |   MinimumAllowedCleanF1 |   ShortfallFromConstraint | SelectionRule                                                                     |
+|-------:|----------:|:----------------|----------:|------------------------:|--------------------------:|:----------------------------------------------------------------------------------|
+|      7 |     0.010 | False           |    79.842 |                  80.055 |                     0.212 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|     21 |     0.010 | False           |    79.447 |                  79.668 |                     0.221 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|     42 |     0.010 | False           |    75.408 |                  76.866 |                     1.458 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|     77 |    10.000 | False           |    74.577 |                  75.368 |                     0.790 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|    100 |     0.010 | False           |    74.363 |                  74.500 |                     0.137 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|    123 |     0.010 | False           |    81.010 |                  81.032 |                     0.022 | Pre-specified fallback: no C met the clean-F1 constraint; highest clean F1 chosen |
+|    202 |     0.010 | True            |    60.697 |                  60.333 |                    -0.364 | Constrained                                                                       |

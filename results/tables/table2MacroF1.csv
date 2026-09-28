@@ -1,0 +1,7 @@
+Method,UrbObs Paper,UrbObs Mine,UrbObs Difference,Swissex Paper,Swissex Mine,Swissex Difference,TS Paper,TS Mine,TS Difference
+Best standalone,87.9,88.2,0.3,83.2,83.2,0.0,71.9,71.9,0.0
+Soft voting,86.4,88.5,2.1,81.6,77.8,-3.8,57.8,58.8,1.0
+MACE Top-k,87.9,88.2,0.3,83.2,83.2,0.0,67.7,67.6,-0.1
+MACE PF,87.9,88.2,0.3,83.2,83.2,0.0,63.7,64.8,1.1
+MACE SoF,87.9,88.2,0.3,80.0,80.0,0.0,79.4,79.4,0.0
+MACE brute-force (SoF),88.7,89.8,1.1,84.0,83.9,-0.1,76.7,79.0,2.3

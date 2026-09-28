@@ -1,0 +1,2 @@
+ChosenC,ConstraintMet,GateROCAUC,GateBalancedAccuracy,GatePrecision,GateRecall,GateF1,Interpretation
+0.01,False,0.8303339693016379,0.6725250233474851,0.9335959482273495,0.9410096426545661,0.9372881355932203,"Routing quality only, not final classification performance"

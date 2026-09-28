@@ -1,0 +1,65 @@
+Mode,Method,Range,AccuracyAUC,F1AUC
+case,Case-folded MACE + missing-name rule,Primary_0_50,89.2,79.0
+case,Case-folded MACE + missing-name rule,Secondary_0_100,89.2,79.0
+case,MACE SoF,Primary_0_50,85.04333333333334,74.40833333333335
+case,MACE SoF,Secondary_0_100,81.10083333333334,67.66250000000001
+case,MACE SoF + missing-name rule,Primary_0_50,85.04333333333334,74.40833333333335
+case,MACE SoF + missing-name rule,Secondary_0_100,81.10083333333334,67.66250000000001
+case,RF,Primary_0_50,76.0,51.9
+case,RF,Secondary_0_100,76.0,51.9
+case,RG-MACE,Primary_0_50,89.2,78.8
+case,RG-MACE,Secondary_0_100,89.2,78.8
+case,RG-MACE (hard gate),Primary_0_50,88.40000000000002,77.8
+case,RG-MACE (hard gate),Secondary_0_100,88.40000000000002,77.8
+case,Soft stacking,Primary_0_50,87.8,74.4
+case,Soft stacking,Secondary_0_100,87.8,74.4
+case,Soft voting,Primary_0_50,79.08500000000001,56.653333333333336
+case,Soft voting,Secondary_0_100,78.255,54.98083333333334
+delete,Case-folded MACE + missing-name rule,Primary_0_50,88.32666666666667,77.44333333333333
+delete,Case-folded MACE + missing-name rule,Secondary_0_100,87.60916666666668,75.89666666666666
+delete,MACE SoF,Primary_0_50,87.96833333333335,78.295
+delete,MACE SoF,Secondary_0_100,87.28416666666668,76.95166666666667
+delete,MACE SoF + missing-name rule,Primary_0_50,88.10166666666666,78.34666666666666
+delete,MACE SoF + missing-name rule,Secondary_0_100,87.57166666666666,77.05666666666667
+delete,RF,Primary_0_50,76.0,51.9
+delete,RF,Secondary_0_100,76.0,51.9
+delete,RG-MACE,Primary_0_50,88.24333333333334,77.10333333333334
+delete,RG-MACE,Secondary_0_100,87.28833333333333,75.33083333333335
+delete,RG-MACE (hard gate),Primary_0_50,87.04166666666666,75.39166666666665
+delete,RG-MACE (hard gate),Secondary_0_100,85.73749999999998,72.88333333333333
+delete,Soft stacking,Primary_0_50,87.16,72.29333333333332
+delete,Soft stacking,Secondary_0_100,86.66749999999999,70.50916666666666
+delete,Soft voting,Primary_0_50,79.41666666666667,57.955
+delete,Soft voting,Secondary_0_100,78.825,56.869166666666665
+missing,Case-folded MACE + missing-name rule,Primary_0_50,85.87166666666667,72.98166666666665
+missing,Case-folded MACE + missing-name rule,Secondary_0_100,82.33166666666666,65.62416666666667
+missing,MACE SoF,Primary_0_50,69.91666666666667,66.675
+missing,MACE SoF,Secondary_0_100,50.825,46.925
+missing,MACE SoF + missing-name rule,Primary_0_50,85.445,73.81
+missing,MACE SoF + missing-name rule,Secondary_0_100,82.10583333333332,66.33833333333334
+missing,RF,Primary_0_50,76.0,51.9
+missing,RF,Secondary_0_100,76.0,51.9
+missing,RG-MACE,Primary_0_50,85.74333333333334,72.88499999999999
+missing,RG-MACE,Secondary_0_100,82.105,65.62583333333333
+missing,RG-MACE (hard gate),Primary_0_50,85.19500000000001,71.78833333333334
+missing,RG-MACE (hard gate),Secondary_0_100,81.91416666666667,64.8275
+missing,Soft stacking,Primary_0_50,84.32833333333333,68.20833333333333
+missing,Soft stacking,Secondary_0_100,80.61833333333334,61.30416666666666
+missing,Soft voting,Primary_0_50,78.59666666666666,55.89333333333333
+missing,Soft voting,Secondary_0_100,77.3275,53.61333333333333
+replace,Case-folded MACE + missing-name rule,Primary_0_50,88.46166666666666,77.23333333333333
+replace,Case-folded MACE + missing-name rule,Secondary_0_100,87.82666666666665,76.025
+replace,MACE SoF,Primary_0_50,88.17333333333333,77.99666666666667
+replace,MACE SoF,Secondary_0_100,87.82,76.66916666666667
+replace,MACE SoF + missing-name rule,Primary_0_50,88.17333333333333,77.99666666666667
+replace,MACE SoF + missing-name rule,Secondary_0_100,87.82,76.66916666666667
+replace,RF,Primary_0_50,76.0,51.9
+replace,RF,Secondary_0_100,76.0,51.9
+replace,RG-MACE,Primary_0_50,88.12833333333333,76.83333333333334
+replace,RG-MACE,Secondary_0_100,87.39333333333335,75.37083333333334
+replace,RG-MACE (hard gate),Primary_0_50,86.87833333333334,74.66333333333333
+replace,RG-MACE (hard gate),Secondary_0_100,85.77666666666669,72.43166666666667
+replace,Soft stacking,Primary_0_50,87.25666666666666,72.34166666666667
+replace,Soft stacking,Secondary_0_100,86.71166666666667,70.64583333333334
+replace,Soft voting,Primary_0_50,79.37333333333333,57.864999999999995
+replace,Soft voting,Secondary_0_100,78.79083333333334,57.05749999999999

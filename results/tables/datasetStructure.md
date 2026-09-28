@@ -1,0 +1,5 @@
+| Dataset          |   Observations |   Time-series readings |   Classes |   Missing numerical values |   Unique IDs |
+|:-----------------|---------------:|-----------------------:|----------:|---------------------------:|-------------:|
+| UrbanObservatory |           1065 |                    864 |        16 |                          0 |         1065 |
+| Swissex          |            346 |                    445 |        11 |                          0 |          346 |
+| ThingSpeakEU     |           2121 |                     96 |        21 |                          0 |         2121 |
