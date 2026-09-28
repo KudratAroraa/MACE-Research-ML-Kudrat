@@ -1,0 +1,47 @@
+{
+  "experimentSeconds": {
+    "Exp22": 0.2792609161697328,
+    "Exp23": 70.7745579588227,
+    "Exp24": 0.2259737909771502,
+    "Exp25": 46.36744279228151,
+    "Exp26": 256.99604383297265,
+    "Exp27": 187.2610587500967,
+    "Exp28": 216.5118277077563,
+    "Exp29": 292.4760638750158,
+    "Exp30": 34.01036187494174
+  },
+  "experimentTitles": {
+    "Exp22": "Failure Case and Research Motivation",
+    "Exp23": "Out-of-Fold Reliability Dataset",
+    "Exp24": "Gate Training and Selection",
+    "Exp25": "Clean Test Comparison",
+    "Exp26": "Natural Reliability and Leakage-Aware Splits",
+    "Exp27": "Metadata Robustness",
+    "Exp28": "Repeated-Split Robustness",
+    "Exp29": "Ablation Study",
+    "Exp30": "Error Analysis, Statistical Evidence and Cost"
+  },
+  "packages": {
+    "joblib": "1.6.0",
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "seaborn": "0.13.2"
+  },
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "python": "3.11.16",
+  "selectedExperiments": [
+    "Exp22",
+    "Exp23",
+    "Exp24",
+    "Exp25",
+    "Exp26",
+    "Exp27",
+    "Exp28",
+    "Exp29",
+    "Exp30"
+  ],
+  "totalSeconds": 1104.949769333005
+}
